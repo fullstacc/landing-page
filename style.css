@@ -1,4 +1,5 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
 }
@@ -16,15 +17,22 @@ ul {
   padding: 10px;
   justify-content: space-between;
   background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.footer {
+  display: flex;
+  color: #e5e7eb;
+  justify-content: center;
 }
 
 .header-left {
   font-size: 24px;
   justify-content: center;
-  color: #f9faf8;
 }
 
 .header-right {
+  color: #e5e7eb;
   justify-content: flex-end;
   padding-right: 10px;
 }
@@ -38,4 +46,14 @@ ul {
   flex-direction: row;
   flex-grow: 2;
   height: 40%;
+}
+.section-1-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-1-right {
+  background-color: grey;
+  padding: 50px;
+  justify-content: center;
 }
