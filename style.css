@@ -45,15 +45,34 @@ ul {
   background-color: #f9faf8;
   flex-direction: row;
   flex-grow: 2;
-  height: 40%;
+  height: 30%;
 }
 .section-1-left {
   display: flex;
+  width: 50%;
+  padding: 10px;
   flex-direction: column;
+}
+
+.section-1-container-3 {
+  background-color: #3882f6;
+  border-radius: 15px;
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+  color: #e5e7eb;
 }
 
 .section-1-right {
   background-color: grey;
-  padding: 50px;
+  width: 50%;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1-container-4 {
+  align-items: center;
   justify-content: center;
 }
